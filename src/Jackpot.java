@@ -1,3 +1,5 @@
+// TODO ask for user name
+//TODO how to make question??
 public class Jackpot {
     private int title;
     private int option_1;
@@ -12,5 +14,13 @@ public class Jackpot {
         this.option_3=option_3;
         this.option_4=option_4;
         this.checkAnswer= checkAnswer;
+    }
+    //user lai options and questions kasari display garanuni??
+    public void display(){
+        System.out.println("Title");
+        System.out.println("1."+option_1);
+        System.out.println("2."+option_2);
+        System.out.println("3."+option_3);
+        System.out.println("4."+option_4);
     }
 }
