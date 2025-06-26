@@ -1,5 +1,6 @@
 // TODO ask for user name
 //TODO calling Jackpot constructor and insert/store question and option in parameters
+//TODO user lai question sodhney one by one
 public class Jackpot {
     private String title;
     private int option_1;
